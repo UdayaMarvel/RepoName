@@ -1,0 +1,204 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-19T15:26:20.899Z",
+        "line": 7,
+        "name": "Sign Up",
+        "description": "",
+        "id": "facebook-signup;sign-up",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6416641700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User create a new account",
+            "match": {
+              "location": "SignUp.user_create_a_new_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1407126100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters firstname",
+            "match": {
+              "location": "SignUp.user_enters_firstname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 468903900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters lastname",
+            "match": {
+              "location": "SignUp.user_enters_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 548100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters emailId",
+            "match": {
+              "location": "SignUp.user_enters_email_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "validate the signup page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Verify the signup is enabled",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f"
+          },
+          {
+            "name": "@s1"
+          },
+          {
+            "name": "@s2"
+          },
+          {
+            "name": "@s3"
+          },
+          {
+            "name": "@s4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-19T15:26:29.237Z",
+        "line": 16,
+        "name": "Sign",
+        "description": "",
+        "id": "facebook-signup;sign",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5029107100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User create a new account",
+            "match": {
+              "location": "SignUp.user_create_a_new_account()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 950551800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters firstname",
+            "match": {
+              "location": "SignUp.user_enters_firstname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 214066900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters lastname",
+            "match": {
+              "location": "SignUp.user_enters_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 602400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters emailId",
+            "match": {
+              "location": "SignUp.user_enters_email_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "validate the signup page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "Verify the signup is enabled",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f"
+          },
+          {
+            "name": "@s2"
+          },
+          {
+            "name": "@s3"
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Signup",
+    "description": "",
+    "id": "facebook-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FacebookSignUp.feature",
+    "tags": [
+      {
+        "name": "@f",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
