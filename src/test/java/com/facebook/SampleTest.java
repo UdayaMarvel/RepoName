@@ -3,7 +3,11 @@ package com.facebook;
 public class SampleTest {
 	public static void main(String[] args)
 	{
-		System.out.println("updated by suguna");
+		String s = "Welcome to Project class";
+		for(int i=0; i<s.length();i++) {
+			char c = s.charAt(i);
+			System.out.println(c);
+		}
 	}
 
 }
