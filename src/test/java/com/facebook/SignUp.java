@@ -28,7 +28,7 @@ public class SignUp {
 	public void user_enters_firstname() {
 		WebElement firstname = ba.driver.findElement(By.xpath("//input[@name='firstname']"));
 		ba.button(firstname);
-		ba.sendText(firstname, "marvel");
+		ba.sendText(firstname, "anbu");
 	}
 
 	@When("User enters lastname")
